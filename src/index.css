@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 88%;
+
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 88%;
+
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 88%;
+
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 0 0% 88%;
+
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 145 100% 50%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 145 100% 50%;
+
+    --radius: 0.25rem;
+    
+    /* Terminal theme tokens */
+    --terminal-green: 145 100% 50%;
+    --terminal-blue: 195 100% 50%;
+    --terminal-border: 0 0% 20%;
+    --terminal-prompt: 145 100% 50%;
+    --code-bg: 0 0% 3%;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .light {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 88%;
+
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 88%;
+
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 88%;
+
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 0 0% 88%;
+
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 145 100% 50%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 145 100% 50%;
+    
+    /* Terminal theme tokens */
+    --terminal-green: 145 100% 50%;
+    --terminal-blue: 195 100% 50%;
+    --terminal-border: 0 0% 20%;
+    --terminal-prompt: 145 100% 50%;
+    --code-bg: 0 0% 3%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+  }
+  
+  /* Smooth scroll */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Terminal-style scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+    border-left: 1px solid hsl(var(--border));
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-accent/40;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-accent/60;
+  }
+  
+  /* Terminal cursor effect */
+  .terminal-cursor::after {
+    content: '▋';
+    animation: blink 1s infinite;
+    color: hsl(var(--accent));
+  }
+  
+  @keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+  }
+}
