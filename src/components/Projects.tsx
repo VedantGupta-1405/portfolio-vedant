@@ -7,7 +7,7 @@ const Projects = () => {
   const projects = [
     {
       title: "F1-Simplified App",
-      description: "An app that simplifies Formula 1 by showcasing drivers, teams, and race insights in an intuitive way.",
+      description: "An app that simplifies Formula 1 by showcasing drivers and race insights in an intuitive way.",
       tech: ["React Native", "Expo", "MongoDB", "FastAPI"],
       github: "https://github.com/VedantGupta-1405/F1_Simplified",
       demo: "https://project1-demo.com",
