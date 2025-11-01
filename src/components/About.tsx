@@ -35,8 +35,7 @@ const About = () => {
                 className="space-y-2"
               >
                 <p className="text-muted-foreground leading-relaxed">
-                  <span className="text-accent">&gt;</span> Currently a 3rd-year Information Science Engineering student, 
-                  passionate about full-stack development and artificial intelligence.
+                  <span className="text-accent">&gt;</span> Currently a third-year Information Science Engineering student, passionate about Full-Stack Development, DevOps, and Cloud Technologies.
                 </p>
               </motion.div>
 
@@ -73,7 +72,7 @@ const About = () => {
                 className="space-y-2"
               >
                 <p className="text-muted-foreground leading-relaxed">
-                  <span className="text-accent">&gt;</span> When not coding: exploring new tech, participating in hackathons, and contributing to open-source.
+                  <span className="text-accent">&gt;</span> When not coding: exploring new tech, participating in hackathons, and exploring new fields of study.
                 </p>
               </motion.div>
 
