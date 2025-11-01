@@ -53,14 +53,14 @@ const Hero = () => {
                 className="space-y-2 pl-6 border-l-2 border-accent/30"
               >
                 <p className="text-2xl md:text-3xl text-foreground font-mono">
-                  &gt; Your Name
+                  &gt; Vedant Gupta
                 </p>
                 <p className="text-lg md:text-xl text-muted-foreground font-mono">
-                  &gt; Computer Science Student
+                  &gt; Information Science Engineering student
                 </p>
                 <p className="text-base text-muted-foreground font-mono leading-relaxed max-w-2xl">
-                  &gt; Passionate developer building modern web applications<br />
-                  &gt; and solving complex problems through elegant code.
+                  &gt; Passionate developer building scalable web applications<br />
+                  &gt; and exploring DevOps and cloud technologies for seamless deployment.
                 </p>
               </motion.div>
             </div>
