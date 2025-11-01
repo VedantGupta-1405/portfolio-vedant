@@ -35,7 +35,7 @@ const About = () => {
                 className="space-y-2"
               >
                 <p className="text-muted-foreground leading-relaxed">
-                  <span className="text-accent">&gt;</span> Currently a 3rd-year Computer Science student at [Your University], 
+                  <span className="text-accent">&gt;</span> Currently a 3rd-year Information Science Engineering student, 
                   passionate about full-stack development and artificial intelligence.
                 </p>
               </motion.div>
