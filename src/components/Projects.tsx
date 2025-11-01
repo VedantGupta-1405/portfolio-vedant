@@ -20,33 +20,12 @@ const Projects = () => {
       demo: "https://project2-demo.com",
     },
     {
-      title: "Weather Dashboard",
-      description: "Real-time weather app with location-based forecasts and interactive maps.",
-      tech: ["React", "OpenWeather API", "Chart.js"],
-      github: "https://github.com/yourusername/project3",
-      demo: "https://project3-demo.com",
-    },
-    {
-      title: "AI Chatbot",
-      description: "Intelligent chatbot using NLP for customer support automation.",
-      tech: ["Python", "TensorFlow", "Flask", "React"],
-      github: "https://github.com/yourusername/project4",
-      demo: "https://project4-demo.com",
-    },
-    {
       title: "Portfolio Website",
       description: "Personal portfolio with modern design and smooth animations.",
       tech: ["React", "Tailwind", "Framer Motion", "Vite"],
       github: "https://github.com/yourusername/project5",
       demo: "https://project5-demo.com",
     },
-    {
-      title: "Social Dashboard",
-      description: "Analytics dashboard tracking social media metrics across platforms.",
-      tech: ["Next.js", "TypeScript", "Recharts", "PostgreSQL"],
-      github: "https://github.com/yourusername/project6",
-      demo: "https://project6-demo.com",
-    }
   ];
 
   return (
