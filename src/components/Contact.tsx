@@ -8,20 +8,20 @@ const Contact = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com"
+      value: "vedantgupta140405@gmail.com",
+      href: "mailto:vedantgupta140405@gmail.com"
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "linkedin",
-      value: "/in/yourusername",
-      href: "https://linkedin.com/in/yourusername"
+      value: "/in/vedant-gupta",
+      href: "www.linkedin.com/in/vedant-gupta140405"
     },
     {
       icon: <Github className="w-5 h-5" />,
       label: "github",
-      value: "/yourusername",
-      href: "https://github.com/yourusername"
+      value: "/VedantGupta-1405",
+      href: "https://github.com/VedantGupta-1405"
     },
     {
       icon: <FileText className="w-5 h-5" />,
