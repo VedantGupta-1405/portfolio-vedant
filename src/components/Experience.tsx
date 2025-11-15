@@ -5,32 +5,11 @@ import { Briefcase, Award, Code, Users } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      icon: <Briefcase className="w-4 h-4" />,
-      title: "Software Engineering Intern",
-      organization: "Tech Company Inc.",
-      period: "Summer 2024",
-      description: "Developed web applications using React and Node.js. Collaborated with cross-functional teams."
-    },
-    {
-      icon: <Award className="w-4 h-4" />,
-      title: "Hackathon Winner",
-      organization: "University Hackathon 2024",
-      period: "March 2024",
-      description: "Led team of 4 to build AI-powered study assistant. First place among 50+ teams."
-    },
-    {
-      icon: <Code className="w-4 h-4" />,
-      title: "Open Source Contributor",
-      organization: "Various Projects",
-      period: "2023 - Present",
-      description: "Active contributor on GitHub. Documentation, bug fixes, and new features."
-    },
-    {
       icon: <Users className="w-4 h-4" />,
-      title: "Tech Club President",
-      organization: "CS Club",
-      period: "2023 - Present",
-      description: "Organized workshops and competitions. Grew membership by 40%."
+      title: "Tech Club Design Head",
+      organization: "Rise Club",
+      period: "2024 - Present",
+      description: "Organized workshops and competitions. Grew membership by almost twice."
     }
   ];
 
