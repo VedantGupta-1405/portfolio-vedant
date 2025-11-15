@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-4">
           <div className="flex gap-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/VedantGupta-1405"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-accent transition-all duration-300 hover:scale-110"
@@ -27,7 +27,7 @@ const Footer = () => {
               <Linkedin size={18} />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="vedantgupta140405@gmail.com"
               className="text-muted-foreground hover:text-accent transition-all duration-300 hover:scale-110"
               aria-label="Email"
             >
@@ -35,7 +35,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-xs text-muted-foreground font-mono">
-            © {currentYear} Your Name <span className="text-accent">|</span> Built with React + Vite
+            © {currentYear} Vedant Gupta <span className="text-accent">|</span> Built with Passion and Precision
           </p>
         </div>
       </div>
