@@ -35,7 +35,7 @@ const About = () => {
                 className="space-y-2"
               >
                 <p className="text-muted-foreground leading-relaxed">
-                  <span className="text-accent">&gt;</span> Currently a third-year Information Science Engineering student, passionate about Full-Stack Development, DevOps, and Cloud Technologies.
+                  <span className="text-accent">&gt;</span> Information Science Engineering student focused on Backend Development, DevOps, and Cloud technologies.
                 </p>
               </motion.div>
 
@@ -47,8 +47,7 @@ const About = () => {
                 className="space-y-2"
               >
                 <p className="text-muted-foreground leading-relaxed">
-                  <span className="text-accent">&gt;</span> My journey started with curiosity about how websites work, 
-                  evolving into building scalable applications that solve real-world problems.
+                  <span className="text-accent">&gt;</span> Build scalable, production-oriented applications with emphasis on clean architecture, performance, and maintainability.
                 </p>
               </motion.div>
 
@@ -60,7 +59,7 @@ const About = () => {
                 className="space-y-2"
               >
                 <p className="text-muted-foreground leading-relaxed">
-                  <span className="text-accent">&gt;</span> Learning cloud technologies and modern frameworks. Hands-on with React, Node.js, and Python.
+                  <span className="text-accent">&gt;</span> Hands-on experience with Java/Spring Boot, React, REST APIs, databases, and modern deployment workflows.
                 </p>
               </motion.div>
 
@@ -72,7 +71,7 @@ const About = () => {
                 className="space-y-2"
               >
                 <p className="text-muted-foreground leading-relaxed">
-                  <span className="text-accent">&gt;</span> When not coding: exploring new tech, participating in hackathons, and exploring new fields of study.
+                  <span className="text-accent">&gt;</span> Continuously strengthening system design, backend engineering depth, and real-world problem-solving through projects and hackathons.
                 </p>
               </motion.div>
 
