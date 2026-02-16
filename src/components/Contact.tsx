@@ -15,7 +15,7 @@ const Contact = () => {
       icon: <Linkedin className="w-5 h-5" />,
       label: "linkedin",
       value: "/in/vedant-gupta",
-      href: "www.linkedin.com/in/vedant-gupta140405"
+      href: "www.linkedin.com/in/vedant-gupta-a9870a20a"
     },
     {
       icon: <Github className="w-5 h-5" />,
